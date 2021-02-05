@@ -22,11 +22,11 @@
    
    if you need play video after download uncomment line (remove REM from begin on line), like that
    
-   >%VLC% --meta-title=streamlink video.mkv
+   >%VLC% --meta-title=youtube-dl video.mkv
 
-   if you need change player from VLC to MPC, use REM begin of line for comment line (not use line), and remove rem before %MPC% 
+   if you need change player from VLC to MPC, use REM begin of line for comment line, and remove rem before %MPC%, like that
    
-   >rem %VLC% --meta-title=streamlink video.mkv
+   >rem %VLC% --meta-title=youtube-dl video.mkv
    
    >%MPC% video.mkv
    
