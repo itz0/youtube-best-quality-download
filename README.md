@@ -30,13 +30,13 @@
    
    >%MPC% video.mkv
    
-   if you need remove video begin/after download/play, uncomment line (remove REM from begin on line), like that
+   if you need remove video before/after download/play, uncomment line (remove REM from begin on line), like that
    
    >del video.mkv
   
-   also you may copy this command "del video.mkv" (full line) and add it as second line of BAT file, after @echo off, to delete unnecessary video before downloading a new one.. 
+   check second line of BAT file, after @echo off, uncomment line (remove REM from begin on line), to delete unnecessary video before downloading a new one..
 
-**Please note that unless you rename or delete the downloaded file, the script will not be able to download the new video, so after downloading the video.mkv file you need to rename or delete the file before starting the script again..**
+**Please note that unless you rename or delete the downloaded video.mkv file, the script will not be able to download the new video, so after downloading the video.mkv file you need to rename or delete the file before starting the script again..**
 
 
 ## How to use:
