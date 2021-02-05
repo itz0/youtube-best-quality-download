@@ -1,6 +1,6 @@
 # youtube-best-quality-download
 
-### This solution was made to quickly and easily allow you to download any stream from Youtube to your computer with or without socks 5 proxy, it only consists of a command line script BAT file run from under Windows, this script is used in its work by the package Youtube-dl https://ytdl-org.github.io/youtube-dl/ perfect for this
+### This solution was made to quickly and easily allow you to download any video from Youtube to your computer with or without socks 5 proxy, it only consists of a command line script BAT file run from under Windows, this script is used in its work by the package Youtube-dl https://ytdl-org.github.io/youtube-dl/ perfect for this
 
 ## Installation:
 1. Download and install Youtube-dl.exe with this link https://github.com/ytdl-org/youtube-dl/releases  latest version file on this moment is youtube-dl 2021.02.04.1
@@ -15,8 +15,14 @@
    >set VLC="C:\Program Files\VideoLAN\VLC\vlc.exe"
    
    >set MPC="C:\Program Files (x86)\K-Lite Codec Pack\MPC-HC64\mpc-hc64.exe"
+   
+   if you need to download a video in the required format, edit string after option -f, for example download 1080p video only, like that
+    
+   >youtube-dl -f bestvideo[height=1080]+bestaudio/best %yturl:&=^&% -o "video"
+   
+   for more video formats check youtube-dl official documentation.
 
-   if you need to use socks 5 proxy server add to streamlink command this option: --proxy socks5://127.0.0.1:1080, like that
+   if you need to use socks 5 proxy server add to youtube-dl command this option: --proxy socks5://127.0.0.1:1080, like that
    
    >youtube-dl --proxy socks5://127.0.0.1:1080 -f bestvideo+bestaudio/best %yturl:&=^&% -o "video"
    
