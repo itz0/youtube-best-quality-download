@@ -9,7 +9,7 @@
 
 3. Download and install K-Lite Codec Pack Mega with Media Player Classic (MPC-HC) with this link https://codecguide.com/download_k-lite_codec_pack_mega.htm
 
-4. Download BAT script file from this project
+4. Download BAT script file from this project and save it in same directory as previously downloaded file youtube-dl.exe
 6. Edit BAT file according to your task - change your system path's, use or not socks 5 proxy and etc.
 
    >set VLC="C:\Program Files\VideoLAN\VLC\vlc.exe"
