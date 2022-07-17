@@ -38,6 +38,7 @@
    check second line of BAT file, after @echo off, uncomment line (remove REM from begin on line), to delete unnecessary video before downloading a new one..
 
 **Please note that unless you rename or delete the downloaded video.mkv file, the script will not be able to download the new video, so after downloading the video.mkv file you need to rename or delete the file before starting the script again..**
+**Settings in youtube.bat file based only for download maximal best quality of video/audio streams from youtube website**
 
 
 ## How to use:
@@ -46,6 +47,6 @@ Go to Youtube find the video you want and copy its full link, for example:
 
 https://www.youtube.com/watch?v=9bZkp7q19f0 
 
-Run with double click by mouse Youtube.bat file, then right-click by mouse and paste your copied youtube video full link to window and push enter key, after wait until the video is loaded on your local pc, depending on what you need, after downloading the file, you can immediately launch the player to watch the video and delete the file immediately after viewing.
+Run with double click by mouse **Youtube.bat** file from FFMpeg\Bin directory (also you may create link to youtube.bat file for Desktop), then right-click by mouse and paste your copied youtube video full link to window and push enter key, after wait until the video is loaded on your local pc, depending on what you need, your internet speed after downloading the file, you can immediately launch the player to watch the video and delete the file immediately after viewing.
 
 ## be happy =)
