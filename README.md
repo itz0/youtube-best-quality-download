@@ -1,6 +1,6 @@
 # youtube-best-quality-download
 
-### This solution was made to quickly and easily allow you to download any video from Youtube to your computer with or without socks5 proxy, it only consists of a command line script BAT file run from under Windows, this script is used in its work by the package Yt-dlp is a youtube-dl fork) https://github.com/yt-dlp/yt-dlp perfect for this
+### This solution was made to quickly and easily allow you to download any video from Youtube to your computer with Windows OS (or/without socks5 proxy), it only consists of a command line script BAT file run from under Windows OS, this script is used in its work by the package Yt-dlp is a very good youtube-dl fork) https://github.com/yt-dlp/yt-dlp perfect for this, so
 
 ## Installation:
 1. Download and unpack latest **FFMpeg** https://github.com/yt-dlp/FFmpeg-Builds/releases/tag/latest for x64 use archive **ffmpeg-master-latest-win64-gpl.zip** or **ffmpeg-master-latest-win32-gpl.zip** for win32
