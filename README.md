@@ -1,17 +1,17 @@
 # youtube-best-quality-download
 
-### This solution was made to quickly and easily allow you to download any video from Youtube to your computer with or without socks 5 proxy, it only consists of a command line script BAT file run from under Windows, this script is used in its work by the package Yt-dlp is a youtube-dl fork) https://github.com/yt-dlp/yt-dlp perfect for this
+### This solution was made to quickly and easily allow you to download any video from Youtube to your computer with or without socks5 proxy, it only consists of a command line script BAT file run from under Windows, this script is used in its work by the package Yt-dlp is a youtube-dl fork) https://github.com/yt-dlp/yt-dlp perfect for this
 
 ## Installation:
 1. Download and unpack latest **FFMpeg** https://github.com/yt-dlp/FFmpeg-Builds/releases/tag/latest for x64 use ffmpeg-master-latest-win64-gpl.zip or ffmpeg-master-latest-win32-gpl.zip for win32
 
-2. Download and move to FFMpeg\Bin directory yt-dlp.exe file for x64 or yt-dlp_x86.exe file for old pc, with this link https://github.com/yt-dlp/yt-dlp/releases  latest version file on this moment is yt-dlp 2022.06.29
+2. Download and move to FFMpeg\Bin directory **yt-dlp.exe** file for x64 or yt-dlp_x86.exe file for win32, with this link https://github.com/yt-dlp/yt-dlp/releases  latest version file on this moment is yt-dlp 2022.06.29
 
 3. Download from this repository **youtube.bat** file and move it also to FFMpeg\Bin directory 
 
-4. If needed players download and install Videolan player with this link https://www.videolan.org/ or download and install K-Lite Codec Pack Mega with Media Player Classic (MPC-HC) with this link https://codecguide.com/download_k-lite_codec_pack_mega.htm
+4. If needed players download and install **Videolan** player with this link https://www.videolan.org/ or download and install K-Lite Codec Pack Mega with **Media Player Classic (MPC-HC)** with this link https://codecguide.com/download_k-lite_codec_pack_mega.htm
 
-5. Edit youtube.bat file according to your task - change your system path's, use or not socks5 proxy and etc.
+5. Edit **youtube.bat** file according to your task - change your system path's, use or not socks5 proxy and etc.
 
    >set VLC="C:\Program Files\VideoLAN\VLC\vlc.exe"
    
