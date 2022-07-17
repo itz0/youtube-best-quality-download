@@ -1,30 +1,25 @@
 # youtube-best-quality-download
 
-### This solution was made to quickly and easily allow you to download any video from Youtube to your computer with or without socks 5 proxy, it only consists of a command line script BAT file run from under Windows, this script is used in its work by the package Youtube-dl https://ytdl-org.github.io/youtube-dl/ perfect for this
+### This solution was made to quickly and easily allow you to download any video from Youtube to your computer with or without socks 5 proxy, it only consists of a command line script BAT file run from under Windows, this script is used in its work by the package Yt-dlp is a youtube-dl fork) https://github.com/yt-dlp/yt-dlp perfect for this
 
 ## Installation:
-1. Download and install Youtube-dl.exe with this link https://github.com/ytdl-org/youtube-dl/releases  latest version file on this moment is youtube-dl 2021.02.04.1
+1. Download and unpack latest **FFMpeg** https://github.com/yt-dlp/FFmpeg-Builds/releases/tag/latest for x64 use ffmpeg-master-latest-win64-gpl.zip or ffmpeg-master-latest-win32-gpl.zip for win32
 
-2. Download and install Videolan player with this link https://www.videolan.org/ 
+2. Download and move to FFMpeg\Bin directory yt-dlp.exe file for x64 or yt-dlp_x86.exe file for old pc, with this link https://github.com/yt-dlp/yt-dlp/releases  latest version file on this moment is yt-dlp 2022.06.29
 
-3. Download and install K-Lite Codec Pack Mega with Media Player Classic (MPC-HC) with this link https://codecguide.com/download_k-lite_codec_pack_mega.htm
+3. Download from this repository **youtube.bat** file and move it also to FFMpeg\Bin directory 
 
-4. Download BAT script file from this project and save it in same directory as previously downloaded file youtube-dl.exe
-6. Edit BAT file according to your task - change your system path's, use or not socks 5 proxy and etc.
+4. If needed players download and install Videolan player with this link https://www.videolan.org/ or download and install K-Lite Codec Pack Mega with Media Player Classic (MPC-HC) with this link https://codecguide.com/download_k-lite_codec_pack_mega.htm
+
+5. Edit youtube.bat file according to your task - change your system path's, use or not socks5 proxy and etc.
 
    >set VLC="C:\Program Files\VideoLAN\VLC\vlc.exe"
    
-   >set MPC="C:\Program Files (x86)\K-Lite Codec Pack\MPC-HC64\mpc-hc64.exe"
-   
-   if you need to download a video in the required format, edit string after option -f, for example download 1080p video only, like that
-    
-   >youtube-dl -f bestvideo[height=1080]+bestaudio/best %yturl:&=^&% -o "video"
-   
-   for more video formats check youtube-dl official documentation.
+   >set MPC="C:\Program Files (x86)\K-Lite Codec Pack\MPC-HC64\mpc-hc64.exe
 
-   if you need to use socks 5 proxy server add to youtube-dl command this option: --proxy socks5://127.0.0.1:1080, like that
+   if you need to use socks5 proxy server add to youtube-dl command this option: --proxy socks5://user:pass@127.0.0.1:1080/, like that
    
-   >youtube-dl --proxy socks5://127.0.0.1:1080 -f bestvideo+bestaudio/best %yturl:&=^&% -o "video"
+   >yt-dlp --proxy socks5://user:pass@127.0.0.1:1080/ -f bestvideo+bestaudio/best %yturl:&=^&% -o "video"
    
    if you need play video after download uncomment line (remove REM from begin on line), like that
    
