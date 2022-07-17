@@ -38,6 +38,7 @@
    check second line of BAT file, after @echo off, uncomment line (remove REM from begin on line), to delete unnecessary video before downloading a new one..
 
 **Please note that unless you rename or delete the downloaded video.mkv file, the script will not be able to download the new video, so after downloading the video.mkv file you need to rename or delete the file before starting the script again..**
+
 **Settings in youtube.bat file based only for download maximal best quality of video/audio streams from youtube website**
 
 
